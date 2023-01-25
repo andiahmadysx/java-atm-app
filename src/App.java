@@ -10,12 +10,6 @@ public class App {
 
     public static void main(String[] args) {
 
-
-        // Masukan username
-        // Default saldo = Rp. 0;
-        // Menampilkan Menu ( Welcom etc, nama user, saldo sekarang, menu tambah sama tarik saldo)
-        // menu tambah,set var saldo dari inputan
-
         viewShowBalance();
 
     }
