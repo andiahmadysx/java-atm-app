@@ -108,9 +108,11 @@ public class App {
     public static void viewAddBalance(){
         addBalance(Integer.parseInt(input("Masukan Nominal Tabungan : ")));
     }
+    // Menampilkan view mengurangi saldo
     public static void viewWithdrawBalance(){
         withdrawBalance(Integer.parseInt(input("Masukan Nominal Yang Ingin Ditarik : ")));
     }
+    // Menampilkan view pilih menu ulangi program
     public static boolean viewRepeatOption(){
         String repeat = input("Apakah Anda ingin mengulang transaksi[y/N]?");
         return handleOption(repeat);
