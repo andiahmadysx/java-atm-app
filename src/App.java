@@ -67,7 +67,7 @@ public class App {
      * VIEW
      */
 
-    // Menampilkan 
+    // Menampilkan view atm
    
     public static void viewShowBalance(){
 
@@ -104,6 +104,7 @@ public class App {
         }
 
     }
+    // Menampilkan view tambah saldo
     public static void viewAddBalance(){
         addBalance(Integer.parseInt(input("Masukan Nominal Tabungan : ")));
     }
