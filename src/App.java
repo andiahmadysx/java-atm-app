@@ -36,6 +36,7 @@ public class App {
      * BUSSINESS LOGIC
      */
 
+    // Menampilkan saldo
     public static void showBalance(){
 
         System.out.println("Nama Anda : " + name);
@@ -43,12 +44,14 @@ public class App {
 
 
     }
+    // Menambahkan saldo
     public static int addBalance(int value){
 
 
         return balance += value;
 
     }
+    // Mengurangi atau Menarik saldo
     public static int withdrawBalance(int value){
 
        if(value > balance){
@@ -64,6 +67,7 @@ public class App {
      * VIEW
      */
 
+   
     public static void viewShowBalance(){
 
         System.out.println("### SELAMAT DATAND DI APP ATM SEDERHANA ###");
