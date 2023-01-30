@@ -15,7 +15,7 @@ public class App {
     }
 
     /**
-     * HANDLE MENU
+     * HANDLE OPTION
      */
 
     public static String input(String info){
